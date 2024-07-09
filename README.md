@@ -1,7 +1,7 @@
 # OpenChat
-# Título do projeto
+# Tentativa de Uso do OpenChat  
 
-Um parágrafo da descrição do projeto vai aqui
+Este projeto descreve as tentativas de uso do servidor deste ChatBot de Código Aberto, feito por uma aluna do curso de Top. em Sistemas Digitais. 
 
 ## 🚀 Começando
 
