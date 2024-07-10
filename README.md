@@ -2,13 +2,16 @@
 # Tentativa de Uso do OpenChat  
 
 Este projeto descreve as tentativas de uso do servidor deste ChatBot de Código Aberto, feito por uma aluna do curso de Tópicos em Sistemas Digitais. 
+
 Consulte **[Pré-requisitos](#-Pr%C3%A9-requisitos)** para saber como implantar o projeto.
 
 ## 🚀 Começando
 
-Antes de tudo, prepare o seu ambiente Linux. Primeiramente, eu tentei com máquina virtual do Oracle e não obtive muito sucesso devido à uma série de limitações, como tamanho de memória sempre fixo (no ato de criação da máquina) e o não reconhecimento da minha placa de vídeo (AMD RADEON 7). 
-Assim, recomendo que instale sua distro linux realizando DUAL boot em seu computador, ou utilizando o WSL dentro do Windows mesmo. Aqui está um link de como instalar o OpenChat dentro do WSL <https://github.com/imoneoi/openchat/issues/41#issuecomment-1798297382>. 
-Já se for utilizar DUAL boot, pode prosseguir neste documento. 
+Antes de tudo, prepare o seu ambiente Linux. 
+Primeiramente, eu tentei com máquina virtual do Oracle e não obtive muito sucesso devido à uma série de limitações, como tamanho de memória sempre fixo (no ato de criação da máquina) e o não reconhecimento da minha placa de vídeo (AMD RADEON 7). 
+Assim, recomendo que instale sua distro linux realizando DUAL boot em seu computador, ou utilizando o WSL dentro do Windows. Vi muita gente conseguindo obter sucesso ao utilizar o WSL.  
+Aqui está um link de como instalar o OpenChat usando WSL <https://github.com/imoneoi/openchat/issues/41#issuecomment-1798297382>. 
+Se for utilizar DUAL boot, pode prosseguir neste documento. 
 
 
 
@@ -20,14 +23,31 @@ Siga as instruções do próprio site do Conda:
 
 <https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html>
 
-### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+### 🔧 Criação do Ambiente Conda 
 
-Diga como essa etapa será:
+Após a instalação, aplique as alterações fechando e abrindo o terminal, ou executando o comando a seguir: 
 
 ```
-Dar exemplos
+source ~/.bashrc
+
+```
+
+Comece criando e instalando a versão correta do Interpretador Python: 
+
+```
+conda create --name my_env python=3.11
+```
+E depois abra-o: 
+
+
+### 🔧 Instalação
+
+Como obtive muitos erros ao tentar ir direto à instalação do OpenChat, comece instalando pacotes no seu computador:
+
+
+```
+sudo apt-get install git
 ```
 
 E repita:
