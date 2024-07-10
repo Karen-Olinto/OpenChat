@@ -2,20 +2,23 @@
 # Tentativa de Uso do OpenChat  
 
 Este projeto descreve as tentativas de uso do servidor deste ChatBot de Código Aberto, feito por uma aluna do curso de Tópicos em Sistemas Digitais. 
+Consulte **[Pré-requisitos](#-Pr%C3%A9-requisitos)** para saber como implantar o projeto.
 
 ## 🚀 Começando
 
-Antes de tudo, prepare o seu ambiente Linux. Primeiramente, eu tentei com máquina virtual do Oracle e não obtive muito sucesso devido à uma série de limitações, como tamanho de memória sempre fixo (no ato de criação da máquina),  
+Antes de tudo, prepare o seu ambiente Linux. Primeiramente, eu tentei com máquina virtual do Oracle e não obtive muito sucesso devido à uma série de limitações, como tamanho de memória sempre fixo (no ato de criação da máquina) e o não reconhecimento da minha placa de vídeo (AMD RADEON 7). 
+Assim, recomendo que instale sua distro linux realizando DUAL boot em seu computador, ou utilizando o WSL dentro do Windows mesmo. Aqui está um link de como instalar o OpenChat dentro do WSL <https://github.com/imoneoi/openchat/issues/41#issuecomment-1798297382>. 
+Já se for utilizar DUAL boot, pode prosseguir neste documento. 
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Antes de qualquer coisa, instale o ambiente conda, ele isola as variáveis e demais arquivos, além de você obter um maior controle de qual versão de biblioteca e de interpretador está utilizando. 
 
-```
-Dar exemplos
-```
+Siga as instruções do próprio site do Conda: 
+
+<https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html>
 
 ### 🔧 Instalação
 
