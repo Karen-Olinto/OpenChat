@@ -70,7 +70,7 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-E se você GPU NVIDIA (ou outra sem ser AMD) talvez seja útil ir por esse caminho: 
+E se você for usar GPU NVIDIA (ou outra sem ser AMD) talvez seja útil ir por esse caminho: 
 ```
 conda install -y cudatoolkit-dev -c conda-forge
 ```
@@ -90,6 +90,8 @@ pip3 install ochat
 
 ## ⚙️ Executando os testes
 
+Teste de uso do servidor que funciona com as pessoas, após a instalação ser bem sucedida: 
+
 ```
 python -m ochat.serving.openai_api_server --model openchat/openchat_3.5 --tensor-parallel-size 1
 ```
@@ -105,10 +107,10 @@ Há mais testes disponíveis na página oficial:
 ## 📌 Versão
 
 Nesta data, 10 de julho de 2024, as versões atuais são:
+``
+ packages in environment at /home/karen/anaconda3/envs/my_env:
 
-# packages in environment at /home/karen/anaconda3/envs/my_env:
-#
-# Name                    Version                   Build  Channel
+  Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                        main  
 _openmp_mutex             5.1                       1_gnu  
 absl-py                   2.1.0                    pypi_0    pypi
@@ -195,6 +197,7 @@ wrapt                     1.14.1                   pypi_0    pypi
 xz                        5.4.6                h5eee18b_1  
 zlib                      1.2.13               h5eee18b_1  
 
+```
 
 
 ## ✒️ Autores
